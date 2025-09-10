@@ -47,5 +47,7 @@ best_pipeline.fit(X_train, y_train)
 preds = best_pipeline.predict(X_valid)
 print("Final Accuracy:", accuracy_score(y_valid, preds))
 print(classification_report(y_valid, preds))
+print("Final feature columns:", X_train.columns.tolist())
+
 
 save_model(best_pipeline, name="advanced_churn_pipeline.joblib")
