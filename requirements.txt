@@ -8,3 +8,10 @@ python-dotenv==1.0.0
 streamlit
 ipykernel
 shap
+matplotlib
+lightgbm
+optuna
+guicorn
+xgboost
+imblearn
+
